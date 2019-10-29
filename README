@@ -1,0 +1,24 @@
+
+=============================
+=  README for ex10: Carrots
+
+login:matan.halfon, 
+ID number:205680648
+Name:Matan Halfon
+i disscused the ex with:
+Gal Bazia, omri yavne ,eran gilad
+
+=============================== Description:
+in this ex we did two parts one was to build a diagnoser class which can preform all kind of 
+diagnosic presichers.
+exemple of shuch is diagnose what illnes you have accordingly to the diciesion tree 
+it get and the symptomes the patiante have  ,path to illness which run recursivly in all the
+path to illness and when arriving to to wanted illness it returns the path too illness which mean
+treu false list acoordingly to what sympotomes the petiante had or hadnt to get to this diagnose.
+The second part was a dicition tree builder which get some records and a bunch of symptoms the function 
+create a 
+  'tree ' which consisite in every depth the same symptomes and when ariiving to a lef in the graph 
+the function looks what was the most commen illness for this path in symptomes and then place it in the right
+leaf of the graph .
+anther function called optimal tree is get a serten depth and the create all the tree for cominations
+of symptoms in this depth and return the one with the lowest error rate cumpute accordingly to the diagnser class.
